@@ -28,5 +28,10 @@ MonoBehaviour:
     spawnInterval: 2.5
     targetPath: {fileID: 0}
     pathName: Path2
-  startDelay: 4
+  - enemyType: 0
+    count: 4
+    spawnInterval: 2.5
+    targetPath: {fileID: 0}
+    pathName: Path2
+  startDelay: 3
   waveName: Wave2

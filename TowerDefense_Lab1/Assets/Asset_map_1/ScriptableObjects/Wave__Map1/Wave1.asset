@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyGroups:
   - enemyType: 0
-    count: 5
+    count: 15
     spawnInterval: 2
     targetPath: {fileID: 0}
     pathName: Path1
   - enemyType: 1
-    count: 3
+    count: 20
     spawnInterval: 2
     targetPath: {fileID: 0}
     pathName: Path2

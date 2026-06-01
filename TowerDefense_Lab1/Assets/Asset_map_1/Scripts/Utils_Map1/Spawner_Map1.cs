@@ -80,11 +80,6 @@ public class Spawner_Map1 : MonoBehaviour
             yield return StartCoroutine(SpawnWave(currentWave));
             Debug.LogWarning($"ĐÃ SPAWN XONG WAVE {_waveCounter + 1}. BẮT ĐẦU ĐẾM NGƯỢC...");
 
-            // 3. 🛑 THAY ĐỔI LOGIC: XÓA DÒNG CHỜ 🛑
-            // Dòng 'yield return new WaitUntil...' đã bị xóa khỏi đây.
-
-            // 4. 🛑 KIỂM TRA THẮNG (LOGIC MỚI) 🛑
-            // LAB 1: Use default 5 waves if LevelManager is null
             int wavesToWin = 5;
             if (LevelManager.Instance != null && LevelManager.Instance.CurrentLevel != null)
             {
